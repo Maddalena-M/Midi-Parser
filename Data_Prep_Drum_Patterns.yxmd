@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6SHUFFLE.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SHUFFLE.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6SLOW.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6SLOW.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SLOW.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6SWING.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6SWING.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SWING.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6TEST.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6TEST.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6TEST.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="306" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6AFROCUB.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6AFROCUB.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6BLUES.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6BLUES.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BLUES.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="426" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6BOOGIE.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOOGIE.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="486" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6BOSA.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6BOSA.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6BOSA.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="546" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6CHACHA.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6CHACHA.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="606" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6DISCO.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6DISCO.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6DISCO.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="666" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6FUNK.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6FUNK.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNK.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="726" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6FUNKBR.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6FUNKBR.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="786" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6JAZZ.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6JAZZ.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="1002" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6MISC1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6MISC1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="906" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6MISC2.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6MISC2.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6MISC2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="966" y="1122" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6POP.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6POP.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6POP.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1026" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6RANDB.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6RANDB.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6RANDB.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1086" y="1242" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6REGGAE.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6REGGAE.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1146" y="1302" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6ROCK.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6ROCK.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCK.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1206" y="1362" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6ROCKBR.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6ROCKBR.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1266" y="1422" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>6SAMBA.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="file_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="instrument" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="start_time" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="velocity" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="tempo" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+            <Field name="table_name" size="254" source="File: C:\Users\MaddalenaMariano\Downloads\6SAMBA.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1602" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1698" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>table_name</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>table_name</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="1770" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"table_name1"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">True</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1866" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="file_name" selected="False" />
+            <SelectField field="start_time" selected="True" type="Double" size="8" />
+            <SelectField field="duration" selected="True" type="String" size="254" />
+            <SelectField field="velocity" selected="True" type="Double" size="8" />
+            <SelectField field="table_name1" selected="True" rename="genre" />
+            <SelectField field="table_name2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2034" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="CEIL([start_time]/8)" field="beat" size="4" type="Float" />
+            <FormulaField expression="CEIL([start_time]/4)" field="Bar" size="1073741823" type="V_WString" />
+            <FormulaField expression="[start_time]-FLOOR([start_time], 4)&#xA;" field="step" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>beat = CEIL([start_time]/8)
+Bar = CEIL([start_time]/4)
+step = [start_time]-FLOOR...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2814" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="64" MaxRecords="">G:\My Drive\Maddalena\Datasets\Drum_Patterns.hyper</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Drum_Patterns.hyper</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2118" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Number" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2442" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="instrument" />
+            <Field field="beat" />
+            <Field field="genre" />
+            <Field field="Bar" />
+            <Field field="step" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="instrument" />
+            <Field field="beat" />
+            <Field field="genre" />
+            <Field field="Bar" />
+            <Field field="Step" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_genre" selected="True" rename="Right_genre" input="Right_" />
+                <SelectField field="Right_instrument" selected="True" rename="Right_instrument" input="Right_" />
+                <SelectField field="Right_beat" selected="True" rename="Right_beat" input="Right_" />
+                <SelectField field="Right_Bar" selected="True" rename="Right_Bar" input="Right_" />
+                <SelectField field="Right_step" selected="True" rename="Right_step" input="Right_" />
+                <SelectField field="Right_start_time" selected="True" rename="Right_start_time" input="Right_" />
+                <SelectField field="Right_duration" selected="True" rename="Right_duration" input="Right_" />
+                <SelectField field="Right_velocity" selected="True" rename="Right_velocity" input="Right_" />
+                <SelectField field="Right_tempo" selected="True" rename="Right_tempo" input="Right_" />
+                <SelectField field="Right_table_name" selected="True" rename="Right_table_name" input="Right_" />
+                <SelectField field="Right_Entry" selected="True" rename="Right_Entry" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2202" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="genre" action="GroupBy" rename="genre" />
+            <SummarizeField field="instrument" action="GroupBy" rename="instrument" />
+            <SummarizeField field="beat" action="GroupBy" rename="beat" />
+            <SummarizeField field="Bar" action="GroupBy" rename="Bar" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="2202" y="1158" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="16" />
+          <Fields>
+            <Field name="Step" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0</c>
+            </r>
+            <r>
+              <c>0.25</c>
+            </r>
+            <r>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>0.75</c>
+            </r>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>1.25</c>
+            </r>
+            <r>
+              <c>1.50</c>
+            </r>
+            <r>
+              <c>1.75</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>2.25</c>
+            </r>
+            <r>
+              <c>2.5</c>
+            </r>
+            <r>
+              <c>2.75</c>
+            </r>
+            <r>
+              <c>3</c>
+            </r>
+            <r>
+              <c>3.25</c>
+            </r>
+            <r>
+              <c>3.5</c>
+            </r>
+            <r>
+              <c>3.75</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2286" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2538" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="1" field="Count" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Count = 1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2538" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="0" field="Count" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Count = 0
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2538" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="1" field="Count" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Count = 1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2694" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#9">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#10">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#11">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#12">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#13">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#14">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#15">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#16">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#17">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#18">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#19">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#20">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#21">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Right" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Left" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Source" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_Prep_Drum_Patterns</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3ca20f83-9a2b-4041-8713-784b74f5315d" />
+      <Telemetry>
+        <PreviousWorkflowId value="a08bde24-c50f-4281-a43b-22528a366b67" />
+        <OriginWorkflowId value="a08bde24-c50f-4281-a43b-22528a366b67" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
