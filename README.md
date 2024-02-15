@@ -13,6 +13,8 @@ https://web.mit.edu/music21/doc/usersGuide/usersGuide_06_stream2.html
 Objects stored in a Stream are generally spaced in time, with an offset from the beginning of the stream.
 
 ### Functions
+Because streams are hierarchical objects which can contain other streams and a variety of subclasses, we need some functions to read them in depending on the information we're looking for:
 
-**flatten()**
-**s.recurse()**
+**flatten()** - Creates a flat representation of a stream, including only elements that are not subclasses
+
+**s.recurse()** - generator to iterate through all the stream layers
