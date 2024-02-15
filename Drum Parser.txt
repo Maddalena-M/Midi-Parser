@@ -4,7 +4,7 @@ Modified to read drums
 """
 
 
-# TODO: ADD CHANNEL SUPPORT
+
 import os
 import random
 import sys
@@ -25,11 +25,11 @@ def is_dir(dirname):
 
 def main():
 
-	input_dir = "/content/Beats"
-	output_dir_name = "/content/-output-csvs-2/"
+	input_dir = "/data/Drum Patterns"
+	output_dir_name = "/data/-output-csvs-3/"
 
 	if not output_dir_name:
-		output_dir_name = input_dir + "-output-csvs-2"
+		output_dir_name = input_dir + "-output-csvs"
 
 	if not os.path.exists(output_dir_name):
 		os.makedirs(output_dir_name)
@@ -38,32 +38,26 @@ def main():
 	df = pd.DataFrame(columns=["file_name", "instrument", "start_time", "duration", "velocity", "tempo"])
 	for file in os.listdir(input_dir):
 		filename = os.fsdecode(file)
-		#print("Processing " + filename + " in to " + filename[:-4] + ".csv")
+
 		mf = music21.midi.MidiFile()
 		mf.open(input_dir + "/" + filename)
 		mf.read()
 		mf.close()
-		s = music21.midi.translate.midiFileToStream(mf, quantizePost=True).flatten() #quantize is what rounds all note durations to real music note types, not needed for our application
-    # Convert chords in to notes.
-		# TODO: consider chords as separate objects from notes? Everything's in music21 anyways
+		s = music21.midi.translate.midiFileToStream(mf, quantizePost=True).flatten() #quantize is what rounds all note durations to real music note types. In this case it's set to True since we want the notes neatly mapped in a pattern
+    
 		df = pd.DataFrame(columns=["file_name", "instrument", "start_time", "duration", "velocity", "tempo"])
 		for g in s.recurse().notes:
 				x = music21.note.Note(None, duration=g.duration)
 				x.instrument = g.getInstrument()
 				x.volume.velocity = g.volume.velocity
 
-		# ALERT: assumes only one tempo
+		# ALERT: assumes only one tempo throughout the file
 		note_tempo = s.metronomeMarkBoundaries()[0][2]
 		for note in s.recurse().notes:
 			new_df = pd.DataFrame([[filename, note.getInstrument(), round(float(note.offset), 3), round(note.duration.quarterLength, 3), note.volume.velocity, note_tempo]], columns=["table_name", "instrument", "start_time", "duration", "velocity", "tempo"])
 
 			df = pd.concat([df, new_df], ignore_index=True)
 
-			#print(df)
-			#print(new_df)
-			#print(note)
-
-		#print(df)
 		df.to_csv(output_dir_name + "/" + filename[:-4] + ".csv")
 
 	print("Done creating csvs!")
