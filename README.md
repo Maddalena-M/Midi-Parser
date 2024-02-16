@@ -17,4 +17,5 @@ Because streams are hierarchical objects which can contain other streams and a v
 
 **flatten()** - Creates a flat representation of a stream, including only elements that are not subclasses
 
-**s.recurse()** - generator to iterate through all the stream layers
+**s.recurse()** - generator to iterate through all the stream layers 
+
